@@ -4,8 +4,6 @@ Smart localization system for Nukkit-MOT that automatically detects the player's
 
 ## 🔍 Features
 - Automatically detects the player's language (ru_RU, en_US, etc.)
-- Ready-made templates for Russian and English
-- Supports Maven/Gradle
 - Simple API for developers
 
 # 🛠 Examples
