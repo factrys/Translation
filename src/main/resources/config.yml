@@ -1,0 +1,5 @@
+languages:
+  - "ru_RU"
+  - "en_US"
+
+default: "en_US"
