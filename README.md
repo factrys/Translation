@@ -9,13 +9,20 @@ Smart localization system for Nukkit-MOT that automatically detects the player's
 # 🛠 Examples
 Builds languages
 ```java
-TranslationAPI api = new TranslationAPI().builds(new File(this.getDataFolder(), "/translations"));
+TranslationAPI api = new Translation().builds(
+                "Test",
+                new File(this.getDataFolder(), "/translations"), //or getDataFolder()
+                Config.JSON //or Config.YAML
+        );
 ```
-Edit en_US.json
+Edit en_US.json or en_US.yml
 ```en_US.json
 {
   "test": "Test for plugin"
 }
+```
+```en_US.yml
+  "test": "Test for plugin"
 ```
 get text
 ```java
@@ -38,7 +45,7 @@ Repository:
 Dependency
 ```html
 <dependency>
-    <groupId>com.github.Factrys</groupId>
+    <groupId>com.github.factrys</groupId>
     <artifactId>Translation</artifactId>
     <version>TAG</version>
 </dependency>
@@ -54,6 +61,6 @@ repositories {
 Dependency:
 ```gradle
 dependencies {
-    implementation 'com.github.Factrys:Translation:TAG'
+    implementation 'com.github.factrys:Translation:TAG'
 }
 ```
