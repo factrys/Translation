@@ -9,13 +9,13 @@ import java.util.List;
 import java.util.Map;
 
 public class TranslationAPI {
-    private static String DELAULT_LANGUAGE;
+    private static String DEFAULT_LANGUAGE;
     private static List<String> ALL_LANGUAGES;
     private final Map<String, Config> translations = new HashMap<>();
 
     public void loadTranslations(Loader plugin) {
         plugin.saveDefaultConfig();
-        DELAULT_LANGUAGE = plugin.getConfig().getString("default");
+        DEFAULT_LANGUAGE = plugin.getConfig().getString("default");
         ALL_LANGUAGES = plugin.getConfig().getStringList("languages");
     }
 
@@ -47,6 +47,6 @@ public class TranslationAPI {
     }
 
     public String getDefaultLanguage() {
-        return DELAULT_LANGUAGE;
+        return DEFAULT_LANGUAGE;
     }
 }

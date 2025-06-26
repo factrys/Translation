@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b3860a7-7d3a-4c20-8d4c-279adc51e910" name="Changes" comment="" />
+    <list default="true" id="0b3860a7-7d3a-4c20-8d4c-279adc51e910" name="Changes" comment="all plugin">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/factrys/translation/TranslationAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/factrys/translation/TranslationAPI.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,6 +41,21 @@
       </state>
     </system>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "factrys"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/factrys/Translation",
+    "accountId": "78cc42f9-6c22-4c2a-bc1b-1fbc6c48c753"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -52,6 +70,7 @@
     "Gradle.Translation.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -103,11 +122,66 @@
       <workItem from="1750465268345" duration="21000" />
       <workItem from="1750465519967" duration="25000" />
       <workItem from="1750899989711" duration="592000" />
-      <workItem from="1750900643947" duration="7142000" />
+      <workItem from="1750900643947" duration="9534000" />
     </task>
+    <task id="LOCAL-00001" summary="all plugin">
+      <option name="closed" value="true" />
+      <created>1750908008504</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1750908008504</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Paths">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="dir:C:/Users/factr/Downloads/Translation/src" />
+                  <option value="dir:C:/Users/factr/Downloads/Translation/gradle" />
+                  <option value="dir:C:/Users/factr/Downloads/Translation/.idea" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:C:/Users/factr/Downloads/Translation/src" />
+                        <option value="dir:C:/Users/factr/Downloads/Translation/gradle" />
+                        <option value="dir:C:/Users/factr/Downloads/Translation/.idea" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="all plugin" />
+    <option name="LAST_COMMIT_MESSAGE" value="all plugin" />
   </component>
 </project>
