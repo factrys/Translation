@@ -7,7 +7,7 @@ import java.util.Map;
 
 public class TranslationAPI {
     private final String name;
-    private final Map<String, Config> languageConfigs; // HashMap для хранения конфигов
+    private final Map<String, Config> languageConfigs;
     private final String defaultLanguage;
 
     public TranslationAPI(String name, Map<String, Config> configs) {
