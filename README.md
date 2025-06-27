@@ -22,9 +22,9 @@ Edit en_US.json or en_US.yml
 }
 ```
 ```en_US.yml
-  "test": "Test for plugin"
+  test: "Test for plugin"
 ```
-get text
+Get translate text
 ```java
 player.sendMessage(api.translate(player, "test"));
 ```
